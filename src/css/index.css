@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+@tailwind base;
+@tailwind components;
+
+.callout::after {
+	top: 100%;
+	left: 40%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #276749;
+	border-width: 10px;
+}
+
+@tailwind utilities;
